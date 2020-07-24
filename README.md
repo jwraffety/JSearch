@@ -1,6 +1,6 @@
 # JSearch #
 
-JSearch is a single and multi-threaded, test-based web search utility. The classes below are responsible for builing a custom inverted index which may be queried to determine search results from crawled web sites. Search functionality is passed by text file. Each class is described breifly:
+JSearch is a single and multi-threaded, text-based web search utility. The classes below are responsible for builing a custom inverted index which may be queried to determine search results from crawled web sites. Search functionality is passed by text file. Each class is described breifly:
 
 ### ArgumentParser ###
 
