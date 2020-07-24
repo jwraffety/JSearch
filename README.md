@@ -2,27 +2,27 @@
 
 JSearch is a single and multi-threaded web searched. Multiple classes described briefly below are responsible for builing a custom inverted index data structure which may be accessed to determine search results from queried/crawled web sites. Search functionality is passed by text file. Brief outlines of each java class are below:
 
-## ArgumentParser ##
+### ArgumentParser ###
 
 Parses and stores command-line arguments into simple key = value pairs.
 
-## ConcurrentInvertedIndexBuilder ##
+### ConcurrentInvertedIndexBuilder ###
 
 A concurrent version of the InvertedIndexBuilder class
 
-## ConcurrentSearchBuilder ##
+### ConcurrentSearchBuilder ###
 
 A concurrent version of the SearchBuilder class.
 
-## Crawler ##
+### Crawler ###
 
 A web crawler which searches a seed URL for connecting URLs. These URLs are parsed for their HTML data and an inverted index may be built from this HTML data.
 
-## Driver ##
+### Driver ###
 
 Class responsible for running this project based on the provided command-line arguments.
 
-## HtmlCleaner ##
+### HtmlCleaner ###
 
 Cleans simple, validated HTML into plain text.
 
